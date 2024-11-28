@@ -13,7 +13,7 @@ export default function Header() {
               <Menu className="h-6 w-6" />
             </button>
             <Link to="/" className="text-2xl font-bold text-gray-800 ml-2">
-              Mejalyne Baraka Hardware
+              MEJALYNE BARAKA HARDWARE
             </Link>
           </div>
           
