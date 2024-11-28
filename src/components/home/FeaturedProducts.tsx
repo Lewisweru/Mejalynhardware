@@ -4,30 +4,26 @@ import ProductCard from '../products/ProductCard';
 const featuredProducts = [
   {
     id: 1,
-    name: 'Professional Tool Set',
-    price: 199.99,
-    image: 'https://images.unsplash.com/photo-1581783898377-1c85bf937427?auto=format&fit=crop&q=80',
+    name: 'Modern Toilets and sinks',
+    image: '/Toiltes.jpg',
     category: 'Tools'
   },
   {
     id: 2,
-    name: 'Modern Coffee Table',
-    price: 299.99,
-    image: 'https://images.unsplash.com/photo-1532372320978-9b6d03df3edf?auto=format&fit=crop&q=80',
-    category: 'Furniture'
+    name: 'Wheelbarrows',
+    image: '/wheelbarrows.jpg',
+    category: 'Tools'
   },
   {
     id: 3,
-    name: 'Premium Paint Kit',
-    price: 89.99,
-    image: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&q=80',
+    name: 'Premium Paints',
+    image: '/paints.jpg',
     category: 'Paints'
   },
   {
     id: 4,
-    name: 'Kitchen Essentials Set',
-    price: 149.99,
-    image: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&q=80',
+    name: 'Kitchen Non-stick pots and pans',
+    image: '/nonstickSufurias.jpg',
     category: 'Kitchenware'
   }
 ];

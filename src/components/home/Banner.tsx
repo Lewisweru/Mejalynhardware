@@ -4,7 +4,7 @@ export default function Banner() {
   return (
     <div className="relative bg-gray-900 h-[500px]">
       <img
-        src="https://images.unsplash.com/photo-1581783898377-1c85bf937427?auto=format&fit=crop&q=80"
+        src="/Banner.jpg"
         alt="Workshop tools"
         className="absolute inset-0 w-full h-full object-cover mix-blend-overlay"
       />
