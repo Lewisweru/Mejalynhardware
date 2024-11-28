@@ -9,9 +9,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <Link to="/" className="text-xl font-bold text-white mb-4 block">
-              HomeHardware
+              Mejalyne Baraka Hardware
             </Link>
-            <p className="text-sm">Your trusted partner for all home and hardware needs since 1990.</p>
+            <p className="text-sm">Your trusted partner for all home and hardware needs.</p>
           </div>
           
           <div>
@@ -19,8 +19,6 @@ export default function Footer() {
             <ul className="space-y-2">
               <li><Link to="/about" className="hover:text-white transition-colors">About Us</Link></li>
               <li><Link to="/contact" className="hover:text-white transition-colors">Contact</Link></li>
-              <li><Link to="/shipping" className="hover:text-white transition-colors">Shipping Policy</Link></li>
-              <li><Link to="/returns" className="hover:text-white transition-colors">Returns</Link></li>
             </ul>
           </div>
           
@@ -37,7 +35,7 @@ export default function Footer() {
             <h4 className="text-lg font-semibold text-white mb-4">Contact Us</h4>
             <ul className="space-y-2">
               <li className="flex items-center">
-                <Phone className="h-4 w-4 mr-2" /> (555) 123-4567
+                <Phone className="h-4 w-4 mr-2" /> (254) 746-607-996
               </li>
               <li className="flex items-center">
                 <Mail className="h-4 w-4 mr-2" /> info@homehardware.com
