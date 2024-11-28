@@ -6,7 +6,7 @@ export default function AboutPage() {
       <h1 className="text-4xl font-bold text-gray-900 mb-8">About Us</h1>
       <div className="prose prose-lg max-w-none">
         <p className="text-lg text-gray-700 mb-6">
-          Welcome to HomeHardware, your trusted partner in home improvement and household essentials since 1990. We take pride in offering a comprehensive selection of both hardware supplies and household items under one roof.
+          Welcome to HomeHardware, your trusted partner in home improvement and household essentials since 2024. We take pride in offering a comprehensive selection of both hardware supplies and household items under one roof.
         </p>
         <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">Our Story</h2>
         <p className="text-lg text-gray-700 mb-6">
