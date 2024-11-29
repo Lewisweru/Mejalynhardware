@@ -23,8 +23,8 @@ export default function Header() {
               <a href="/" className="hover:text-pink-600 px-3 py-2 rounded-md text-sm font-medium">Home</a>
               <a href="/hardware" className="hover:text-pink-600 px-3 py-2 rounded-md text-sm font-medium">Services</a>
               <a href="/household" className="hover:text-pink-600 px-3 py-2 rounded-md text-sm font-medium">Products</a>
-              <a href="/about" className="hover:text-pink-600 px-3 py-2 rounded-md text-sm font-medium">About us</a>
-              <a href="/contact" className="hover:text-pink-600 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+              <a href="#about" className="hover:text-pink-600 px-3 py-2 rounded-md text-sm font-medium">About us</a>
+              <a href="#contact" className="hover:text-pink-600 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
             </div>
           </div>
 
