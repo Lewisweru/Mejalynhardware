@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Search, Menu, X, Heart } from 'lucide-react';
+import { Search, Menu, X, Hammer,Heart } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function Header() {
@@ -11,7 +11,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo and Branding */}
           <div className="flex items-center">
-            <Heart className="h-8 w-8 text-pink-600" />
+            <Hammer className="h-8 w-8 text-pink-600" />
             <Link to="/" className="ml-2 text-xl font-semibold text-gray-900">
               MEJALYNE BARAKA HARDWARE
             </Link>
@@ -20,11 +20,11 @@ export default function Header() {
           {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              <a href="#home" className="hover:text-pink-600 px-3 py-2 rounded-md text-sm font-medium">Home</a>
-              <a href="#about" className="hover:text-pink-600 px-3 py-2 rounded-md text-sm font-medium">About</a>
-              <a href="#services" className="hover:text-pink-600 px-3 py-2 rounded-md text-sm font-medium">Services</a>
-              <a href="#products" className="hover:text-pink-600 px-3 py-2 rounded-md text-sm font-medium">Products</a>
-              <a href="#contact" className="hover:text-pink-600 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+              <a href="/" className="hover:text-pink-600 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+              <a href="/hardware" className="hover:text-pink-600 px-3 py-2 rounded-md text-sm font-medium">Services</a>
+              <a href="/household" className="hover:text-pink-600 px-3 py-2 rounded-md text-sm font-medium">Products</a>
+              <a href="/about" className="hover:text-pink-600 px-3 py-2 rounded-md text-sm font-medium">About us</a>
+              <a href="/contact" className="hover:text-pink-600 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
             </div>
           </div>
 
@@ -45,10 +45,10 @@ export default function Header() {
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a href="#home" className="hover:text-pink-600 block px-3 py-2 rounded-md text-base font-medium">Home</a>
-            <a href="#about" className="hover:text-pink-600 block px-3 py-2 rounded-md text-base font-medium">About</a>
-            <a href="#services" className="hover:text-pink-600 block px-3 py-2 rounded-md text-base font-medium">Services</a>
-            <a href="#products" className="hover:text-pink-600 block px-3 py-2 rounded-md text-base font-medium">Products</a>
-            <a href="#contact" className="hover:text-pink-600 block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+            <a href="/hardware" className="hover:text-pink-600 block px-3 py-2 rounded-md text-base font-medium">Hardware</a>
+            <a href="/household" className="hover:text-pink-600 block px-3 py-2 rounded-md text-base font-medium">Blessed varieties</a>
+            <a href="/contact" className="hover:text-pink-600 block px-3 py-2 rounded-md text-base font-medium">Contact us</a>
+            <a href="/about" className="hover:text-pink-600 block px-3 py-2 rounded-md text-base font-medium">About us</a>
           </div>
         </div>
       )}
