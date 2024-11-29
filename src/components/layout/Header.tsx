@@ -21,8 +21,8 @@ export default function Header() {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
               <a href="/" className="hover:text-pink-600 px-3 py-2 rounded-md text-sm font-medium">Home</a>
-              <a href="/hardware" className="hover:text-pink-600 px-3 py-2 rounded-md text-sm font-medium">Services</a>
-              <a href="/household" className="hover:text-pink-600 px-3 py-2 rounded-md text-sm font-medium">Products</a>
+              <a href="#hardware" className="hover:text-pink-600 px-3 py-2 rounded-md text-sm font-medium">Services</a>
+              <a href="#household" className="hover:text-pink-600 px-3 py-2 rounded-md text-sm font-medium">Products</a>
               <a href="#about" className="hover:text-pink-600 px-3 py-2 rounded-md text-sm font-medium">About us</a>
               <a href="#contact" className="hover:text-pink-600 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
             </div>
@@ -45,10 +45,10 @@ export default function Header() {
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a href="#home" className="hover:text-pink-600 block px-3 py-2 rounded-md text-base font-medium">Home</a>
-            <a href="/hardware" className="hover:text-pink-600 block px-3 py-2 rounded-md text-base font-medium">Hardware</a>
-            <a href="/household" className="hover:text-pink-600 block px-3 py-2 rounded-md text-base font-medium">Blessed varieties</a>
-            <a href="/contact" className="hover:text-pink-600 block px-3 py-2 rounded-md text-base font-medium">Contact us</a>
-            <a href="/about" className="hover:text-pink-600 block px-3 py-2 rounded-md text-base font-medium">About us</a>
+            <a href="#hardware" className="hover:text-pink-600 block px-3 py-2 rounded-md text-base font-medium">Hardware</a>
+            <a href="#household" className="hover:text-pink-600 block px-3 py-2 rounded-md text-base font-medium">Blessed varieties</a>
+            <a href="#contact" className="hover:text-pink-600 block px-3 py-2 rounded-md text-base font-medium">Contact us</a>
+            <a href="#about" className="hover:text-pink-600 block px-3 py-2 rounded-md text-base font-medium">About us</a>
           </div>
         </div>
       )}
