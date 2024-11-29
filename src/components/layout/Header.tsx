@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { Search, Menu, X, Hammer,Heart } from 'lucide-react';
+import { Hammer, Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import Navigation from './Navigation';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,15 +19,7 @@ export default function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-4">
-              <a href="/" className="hover:text-pink-600 px-3 py-2 rounded-md text-sm font-medium">Home</a>
-              <a href="#hardware" className="hover:text-pink-600 px-3 py-2 rounded-md text-sm font-medium">Services</a>
-              <a href="#household" className="hover:text-pink-600 px-3 py-2 rounded-md text-sm font-medium">Products</a>
-              <a href="#about" className="hover:text-pink-600 px-3 py-2 rounded-md text-sm font-medium">About us</a>
-              <a href="#contact" className="hover:text-pink-600 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
-            </div>
-          </div>
+          <Navigation />
 
           {/* Mobile Menu Button */}
           <div className="md:hidden">
@@ -42,14 +35,50 @@ export default function Header() {
 
       {/* Mobile Navigation */}
       {isOpen && (
-        <div className="md:hidden">
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <a href="#home" className="hover:text-pink-600 block px-3 py-2 rounded-md text-base font-medium">Home</a>
-            <a href="#hardware" className="hover:text-pink-600 block px-3 py-2 rounded-md text-base font-medium">Hardware</a>
-            <a href="#household" className="hover:text-pink-600 block px-3 py-2 rounded-md text-base font-medium">Blessed varieties</a>
-            <a href="#contact" className="hover:text-pink-600 block px-3 py-2 rounded-md text-base font-medium">Contact us</a>
-            <a href="#about" className="hover:text-pink-600 block px-3 py-2 rounded-md text-base font-medium">About us</a>
-          </div>
+        <div className="md:hidden bg-white shadow-lg">
+          <ul className="space-y-1 px-4 py-4">
+            {categories.map((category) => (
+              <li key={category.name}>
+                <Link
+                  to={category.path}
+                  className="block text-gray-700 hover:text-blue-600 font-medium"
+                  onClick={() => setIsOpen(false)} // Close the menu on link click
+                >
+                  {category.name}
+                </Link>
+                {category.subcategories && (
+                  <ul className="pl-4 mt-1 space-y-1">
+                    {category.subcategories.map((sub) => (
+                      <li key={sub.name}>
+                        <Link
+                          to={sub.path}
+                          className="block text-gray-600 hover:text-blue-500"
+                          onClick={() => setIsOpen(false)}
+                        >
+                          {sub.name}
+                        </Link>
+                        {sub.items && (
+                          <ul className="pl-4 mt-1 space-y-1">
+                            {sub.items.map((item) => (
+                              <li key={item}>
+                                <Link
+                                  to={`${sub.path}/${item.toLowerCase().replace(/\s+/g, '-')}`}
+                                  className="block text-gray-500 hover:text-blue-400"
+                                  onClick={() => setIsOpen(false)}
+                                >
+                                  {item}
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </li>
+            ))}
+          </ul>
         </div>
       )}
     </header>
