@@ -98,7 +98,6 @@ const categories = [
       }
     ]
   },
-  { name: 'Special Offers', path: '/special-offers' },
   { name: 'About Us', path: '/about' },
   { name: 'Contact', path: '/contact' },
 ];
