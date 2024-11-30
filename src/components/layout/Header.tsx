@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Hammer, Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import Navigation from './Navigation';
+import Navigation, { categories } from './Navigation';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
