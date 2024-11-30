@@ -1,86 +1,41 @@
-import React, { useState } from 'react';
-import { Hammer, Menu, X } from 'lucide-react';
+import React from 'react';
+import { Search, ShoppingCart, Menu } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import Navigation, { categories } from './Navigation';
+import Navigation from './Navigation';
 
 export default function Header() {
-  const [isOpen, setIsOpen] = useState(false);
-
   return (
-    <header className="fixed w-full bg-white/95 backdrop-blur-sm z-50 shadow-sm">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          {/* Logo and Branding */}
+    <header className="sticky top-0 z-50 bg-white shadow-md">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
+        <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <Hammer className="h-8 w-8 text-pink-600" />
-            <Link to="/" className="ml-2 text-xl font-semibold text-gray-900">
+            <button className="sm:hidden p-2">
+              <Menu className="h-6 w-6" />
+            </button>
+            <Link to="/" className="text-2xl font-bold text-gray-800 ml-2">
               MEJALYNE BARAKA HARDWARE
             </Link>
           </div>
+          
+          <div className="hidden sm:block flex-1 max-w-2xl mx-8">
+            <div className="relative">
+              <input
+                type="text"
+                placeholder="Search products..."
+                className="w-full px-4 py-2 pl-10 pr-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+              <Search className="absolute left-3 top-2.5 h-5 w-5 text-gray-400" />
+            </div>
+          </div>
 
-          {/* Desktop Navigation */}
-          <Navigation />
-
-          {/* Mobile Menu Button */}
-          <div className="md:hidden">
-            <button
-              onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-pink-600 hover:bg-gray-100"
-            >
-              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+          <div className="flex items-center space-x-4">
+            <button className="p-2 hover:bg-gray-100 rounded-full">
+              <ShoppingCart className="h-6 w-6" />
             </button>
           </div>
         </div>
+        <Navigation />
       </div>
-
-      {/* Mobile Navigation */}
-      {isOpen && (
-        <div className="md:hidden bg-white shadow-lg">
-          <ul className="space-y-1 px-4 py-4">
-            {categories.map((category) => (
-              <li key={category.name}>
-                <Link
-                  to={category.path}
-                  className="block text-gray-700 hover:text-blue-600 font-medium"
-                  onClick={() => setIsOpen(false)} // Close the menu on link click
-                >
-                  {category.name}
-                </Link>
-                {category.subcategories && (
-                  <ul className="pl-4 mt-1 space-y-1">
-                    {category.subcategories.map((sub) => (
-                      <li key={sub.name}>
-                        <Link
-                          to={sub.path}
-                          className="block text-gray-600 hover:text-blue-500"
-                          onClick={() => setIsOpen(false)}
-                        >
-                          {sub.name}
-                        </Link>
-                        {sub.items && (
-                          <ul className="pl-4 mt-1 space-y-1">
-                            {sub.items.map((item) => (
-                              <li key={item}>
-                                <Link
-                                  to={`${sub.path}/${item.toLowerCase().replace(/\s+/g, '-')}`}
-                                  className="block text-gray-500 hover:text-blue-400"
-                                  onClick={() => setIsOpen(false)}
-                                >
-                                  {item}
-                                </Link>
-                              </li>
-                            ))}
-                          </ul>
-                        )}
-                      </li>
-                    ))}
-                  </ul>
-                )}
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
     </header>
   );
 }
