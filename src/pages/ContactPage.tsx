@@ -48,11 +48,11 @@ export default function ContactPage() {
           <div className="space-y-4">
             <div className="flex items-center">
               <MapPin className="h-5 w-5 text-blue-600 mr-3" />
-              <span>123 Hardware Street, Tool City, TC 12345</span>
+              <span>Nanyuki Baraka </span>
             </div>
             <div className="flex items-center">
               <Phone className="h-5 w-5 text-blue-600 mr-3" />
-              <span>(555) 123-4567</span>
+              <span>0746-607-996</span>
             </div>
             <div className="flex items-center">
               <Mail className="h-5 w-5 text-blue-600 mr-3" />

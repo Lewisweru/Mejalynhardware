@@ -35,7 +35,7 @@ export default function Footer() {
             <h4 className="text-lg font-semibold text-white mb-4">Contact Us</h4>
             <ul className="space-y-2">
               <li className="flex items-center">
-                <Phone className="h-4 w-4 mr-2" /> (254) 746-607-996
+                <Phone className="h-4 w-4 mr-2" /> 0746-607-996
               </li>
               <li className="flex items-center">
                 <Mail className="h-4 w-4 mr-2" /> info@homehardware.com
@@ -50,7 +50,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-sm text-center">
-          <p>&copy; 2024 HomeHardware. All rights reserved.</p>
+          <p>&copy; Lewis Weru. All rights reserved.</p>
         </div>
       </div>
     </footer>
