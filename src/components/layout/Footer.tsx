@@ -38,16 +38,11 @@ export default function Footer() {
               <li className="flex items-center">
                 <Phone className="h-4 w-4 mr-2" /> 0746-607-996
               </li>
-              <li className="flex items-center">
-                <Mail className="h-4 w-4 mr-2" /> info@homehardware.com
-              </li>
             </ul>
             <div className="flex space-x-4 mt-4">
               <a href="https://wa.me/254746607996"
                     target="_blank"
                      rel="noopener noreferrer" className="hover:text-white transition-colors"><FaWhatsapp className="h-6 w-6" /></a>
-              <a href="#" className="hover:text-white transition-colors"><Twitter className="h-6 w-6" /></a>
-              <a href="#" className="hover:text-white transition-colors"><Instagram className="h-6 w-6" /></a>
             </div>
           </div>
         </div>

@@ -61,7 +61,7 @@ export default function ContactPage() {
                      rel="noopener noreferrer"
                     className="hover:text-pink-400"
                >
-               <FaWhatsappSquare className="h-6 w-6 text-green-500 mr-3" />
+               <FaWhatsappSquare className="h-6 w-6 text-green-600 mr-3" />
                <span>Text Whatsapp</span>
                </a>
             </div>
