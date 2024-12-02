@@ -1,5 +1,5 @@
 import React from 'react';
-import { Search, ShoppingCart, Menu } from 'lucide-react';
+import { Search, ShoppingCart, Hammer, Menu } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Navigation from './Navigation';
 
@@ -12,6 +12,7 @@ export default function Header() {
             <button className="sm:hidden p-2">
               <Menu className="h-6 w-6" />
             </button>
+            <Hammer className="h-8 w-8 text-black-600" />
             <Link to="/" className="text-2xl font-bold text-gray-800 ml-2">
               MEJALYNE BARAKA HARDWARE
             </Link>
