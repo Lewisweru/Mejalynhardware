@@ -23,7 +23,7 @@ const featuredProducts = [
   {
     id: 4,
     name: 'Kitchen Non-stick pots and pans',
-    image: '/Household/HQnonstickpan',
+    image: '/Household/HQnonstickpan.jpg',
     category: 'Kitchenware'
   }
 ];
