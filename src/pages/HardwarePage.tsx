@@ -18,7 +18,7 @@ const HardwareItems = () => {
             <img
               src={item.src}
               alt={item.alt}
-              className="w-40 h-40 object-cover rounded-lg shadow-md mb-2"
+              className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
             />
             <p className="text-center text-lg font-medium text-gray-700">{item.alt}</p>
           </div>
