@@ -1,5 +1,6 @@
 import React from 'react';
 import { Facebook, Twitter, Instagram, Clock, Phone, Mail } from 'lucide-react';
+import { FaWhatsapp } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
 export default function Footer() {
@@ -42,7 +43,9 @@ export default function Footer() {
               </li>
             </ul>
             <div className="flex space-x-4 mt-4">
-              <a href="#" className="hover:text-white transition-colors"><Facebook className="h-6 w-6" /></a>
+              <a href="https://wa.me/254746607996"
+                    target="_blank"
+                     rel="noopener noreferrer" className="hover:text-white transition-colors"><FaWhatsapp className="h-6 w-6" /></a>
               <a href="#" className="hover:text-white transition-colors"><Twitter className="h-6 w-6" /></a>
               <a href="#" className="hover:text-white transition-colors"><Instagram className="h-6 w-6" /></a>
             </div>
