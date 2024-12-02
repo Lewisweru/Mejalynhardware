@@ -11,7 +11,7 @@ const HouseholdItems = () => {
   return (
     <div className="container mx-auto p-4">
       <h1 className="text-3xl font-bold text-gray-800 mb-4">Household Items</h1>
-      <p className="font-times text-3xl">Explore a variety of household essentials and utilities.</p>
+      <p className="font-times text-lg">Explore a variety of household essentials and utilities.</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {householdImages.map((item) => (
           <div key={item.id} className="flex flex-col items-center">
