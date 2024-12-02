@@ -1,5 +1,6 @@
 import React from 'react';
 import { Mail, Phone, MapPin } from 'lucide-react';
+import { FaWhatsappSquare } from "react-icons/fa";
 
 export default function ContactPage() {
   return (
@@ -54,9 +55,15 @@ export default function ContactPage() {
               <Phone className="h-5 w-5 text-blue-600 mr-3" />
               <span>0746-607-996</span>
             </div>
-            <div className="flex items-center">
-              <Mail className="h-5 w-5 text-blue-600 mr-3" />
-              <span>info@homehardware.com</span>
+            <div className="flex items-center"><a
+                   href="https://wa.me/254746607996"
+                    target="_blank"
+                     rel="noopener noreferrer"
+                    className="hover:text-pink-400"
+               >
+               <FaWhatsappSquare className="h-6 w-6 text-green-500" />
+               </a>
+              <span> Text Whatsapp</span>
             </div>
           </div>
           
