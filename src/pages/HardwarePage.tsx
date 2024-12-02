@@ -9,10 +9,10 @@ const hardwareImages = [
 
 const HardwareItems = () => {
   return (
-    <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold text-gray-800 mb-4">Hardware Items</h1>
-      <p className="text-gray-600 mb-6">Here you'll find all the tools and equipment you need.</p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6">
+      <h1 className="text-3xl font-bold text-gray-900 mb-8">Hardware Items</h1>
+      <p className="text-3xl font-bold text-gray-900 mb-8">Here you'll find all the tools and equipment you need.</p>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {hardwareImages.map((item) => (
           <div key={item.id} className="flex flex-col items-center">
             <img
