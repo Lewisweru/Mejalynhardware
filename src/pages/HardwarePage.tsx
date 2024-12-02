@@ -3,8 +3,8 @@ import React from "react";
 const hardwareImages = [
   { id: 1, src: "/wheelbarrows.jpg", alt: "Wheelbarrows" },
   { id: 2, src: "/wire.jpg", alt: "Welded wire mesh" },
-  { id: 2, src: "/cement.jpg", alt: "Welded wire mesh" },
-  { id: 3, src: "/barbedwire.jpg", alt: "cement" },
+  { id: 3, src: "/cement.jpg", alt: "Welded wire mesh" },
+  { id: 4, src: "/barbedwire.jpg", alt: "cement" },
 ];
 
 const HardwareItems = () => {
@@ -28,4 +28,4 @@ const HardwareItems = () => {
   );
 };
 
-export default HardwareItems;
+export default HardwarePage;

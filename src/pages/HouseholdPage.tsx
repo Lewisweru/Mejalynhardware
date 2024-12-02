@@ -1,9 +1,9 @@
 import React from "react";
 
 const householdImages = [
-  { id: 1, src: "nonstickSufurias", alt: "Non tick pans" },
-  { id: 2, src: "/jikos.jpg", alt: "Jikos" },
-  { id: 3, src: "kienyejiSufurias", alt: "Sufurias" },
+  { id: 1, src: "/Household/nonstickSufurias.jpg", alt: "Non stick pans" },
+  { id: 2, src: "/Household/jikos.jpg", alt: "Jikos" },
+  { id: 3, src: "/Household/kienyejiSufurias.jpg", alt: "Sufurias" },
 ];
 
 const HouseholdItems = () => {
@@ -27,4 +27,4 @@ const HouseholdItems = () => {
   );
 };
 
-export default HouseholdItems;
+export default HouseholdPage;
