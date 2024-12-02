@@ -1,7 +1,7 @@
 import React from "react";
 
 const householdImages = [
-  { id: 1, src: "/Household/HQnonstickSufurias.jpg", alt: "Non stick pans" },
+  { id: 1, src: "/Household/HQnonstickpan.jpg", alt: "Non stick pans" },
   { id: 2, src: "/Household/jikos.jpg", alt: "Jikos" },
   { id: 3, src: "/Household/kienyejiSufurias.jpg", alt: "Sufurias" },
   { id: 3, src: "/Household/plasticSeats.jpg", alt: "Seats" },
