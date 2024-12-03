@@ -12,7 +12,7 @@ const hardwareImages = [
   { id: 9, src: "/wood.jpg", alt: "Plywood sheets" },
   { id: 10, src: "/IMG-20241127-WA0005.jpg", alt: "Metal pipes" },
   { id: 11, src: "/toiltes.jpg", alt: "Ceramic toilet and sinks " },
-  { id: 12, src: "/morePaints.jpg", alt: "Paint" },
+  { id: 12, src: "/morePaint.jpg", alt: "Paint" },
   { id: 13, src: "/morecement.jpg", alt: "Cement" },
   { id: 13, src: "/doors.jpg", alt: "wood panels" },
 ];
