@@ -72,7 +72,6 @@ export default function ContactPage() {
             <ul className="space-y-2">
               <li>Monday - Friday: 8AM - 8PM</li>
               <li>Saturday: 9AM - 6PM</li>
-              <li>Sunday: 10AM - 4PM</li>
             </ul>
           </div>
         </div>

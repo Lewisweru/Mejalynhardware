@@ -38,6 +38,12 @@ export default function Footer() {
               <li className="flex items-center">
                 <Phone className="h-4 w-4 mr-2" /> 0746-607-996
               </li>
+              <li className="flex items-center">
+                <a href="https://web.facebook.com/mercy.njukia" className="flex items-center">
+                  <Facebook className="h-4 w-4 mr-2" />
+                  Facebook
+                </a>
+              </li>
             </ul>
             <div className="flex space-x-4 mt-4">
               <a href="https://wa.me/254746607996"
