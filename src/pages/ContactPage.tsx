@@ -64,6 +64,12 @@ export default function ContactPage() {
                <FaWhatsappSquare className="h-6 w-6 text-green-600 mr-3" />Text Whatsapp
                </a>
             </div>
+            <div className="flex items-center">
+                <a href="https://web.facebook.com/mercy.njukia" className="flex items-center">
+                  <Facebook className="h-4 w-4 mr-2" />
+                  Facebook
+                </a>
+            </div>
           </div>
           
           <div className="mt-8">
