@@ -55,15 +55,18 @@ export default function ContactPage() {
               <Phone className="h-5 w-5 text-blue-600 mr-3" />
               <span>0746-607-996</span>
             </div>
-            <div className="flex items-center"><a
-                   href="https://wa.me/254746607996"
-                    target="_blank"
-                     rel="noopener noreferrer"
-                    className="hover:text-pink-400"
-               >
-               <FaWhatsappSquare className="h-6 w-6 text-green-600 mr-3" />Text Whatsapp
+            <div className="flex items-center">
+               <a
+                 href="https://wa.me/254746607996"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 className="hover:text-pink-400 flex items-center"
+                >
+                 <FaWhatsappSquare className="h-6 w-6 text-green-600 mr-2" />
+                 <span>Text Whatsapp</span>
                </a>
             </div>
+
             <div className="flex items-center">
                 <a href="https://web.facebook.com/mercy.njukia" className="flex items-center">
                   <Facebook className="h-4 w-4 mr-2" />

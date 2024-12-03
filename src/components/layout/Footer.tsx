@@ -45,12 +45,17 @@ export default function Footer() {
               </li>
             </ul>
             <div className="flex space-x-4 mt-4">
-              <a href="https://wa.me/254746607996"
-                    target="_blank"
-                     rel="noopener noreferrer" className="hover:text-white transition-colors"><FaWhatsapp className="h-6 w-6" />
-                     Whatsapp for Enquiries
-                     </a>
+              <a
+                href="https://wa.me/254746607996"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition-colors flex items-center space-x-2"
+              >
+                <FaWhatsapp className="h-6 w-6" />
+                <span>Whatsapp for Enquiries</span>
+              </a>
             </div>
+
           </div>
         </div>
         
