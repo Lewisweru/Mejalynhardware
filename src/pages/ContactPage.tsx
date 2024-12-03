@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin, Facebook } from 'lucide-react';
 import { FaWhatsappSquare } from "react-icons/fa";
 
 export default function ContactPage() {
