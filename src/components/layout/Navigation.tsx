@@ -51,7 +51,7 @@ const categories = [
     ]
   },
   { 
-    name: 'Household',
+    name: 'Blessed Varieties',
     path: '/household',
     subcategories: [
       { 

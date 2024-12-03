@@ -74,7 +74,7 @@ export default function Header() {
                   onClick={toggleMenu}
                   className="block text-gray-700 hover:text-blue-600"
                 >
-                  Household
+                  Blessed Varieties
                 </Link>
               </li>
               <li>

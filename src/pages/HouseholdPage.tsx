@@ -4,7 +4,13 @@ const householdImages = [
   { id: 1, src: "/Household/HQnonstickpan.jpg", alt: "Non stick pans" },
   { id: 2, src: "/Household/jikos.jpg", alt: "Jikos" },
   { id: 3, src: "/Household/kienyejiSufurias.jpg", alt: "Sufurias" },
-  { id: 3, src: "/Household/plasticSeats.jpg", alt: "Seats" },
+  { id: 4, src: "/Household/anotherteaset.jpg", alt: "ceramic tea set" },
+  { id: 5, src: "/Household/sugarholder.jpg", alt: "Sugar holder" },
+  { id: 6, src: "/Household/public/Household/brownwineglasses.jpg", alt: "Wine glasses" },
+  { id: 7, src: "/Household/plates.jpg", alt: "plates" },
+  { id: 8, src: "/Household/waterbottles.jpg", alt: "Water bottles" },
+  { id: 9, src: "/Household/juicejar.jpg", alt: "Juice jar" },
+  { id: 10, src: "/Household/coffeeset.jpg", alt: "Coffee set" },
 ];
 
 const HouseholdItems = () => {
