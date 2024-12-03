@@ -43,13 +43,6 @@ export default function Header() {
               <Search className="absolute left-3 top-2.5 h-5 w-5 text-gray-400" />
             </div>
           </div>
-
-          {/* Cart Icon */}
-          <div className="flex items-center space-x-4">
-            <button className="p-2 hover:bg-gray-100 rounded-full">
-              <ShoppingCart className="h-6 w-6" />
-            </button>
-          </div>
         </div>
 
         {/* Navigation Menu */}
