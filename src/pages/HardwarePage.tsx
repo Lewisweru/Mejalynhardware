@@ -5,6 +5,16 @@ const hardwareImages = [
   { id: 2, src: "/wire.jpg", alt: "Welded wire mesh" },
   { id: 3, src: "/cement.jpg", alt: "Cement" },
   { id: 4, src: "/segenge.jpg", alt: "Barbed wire" },
+  { id: 5, src: "/logs.jpg", alt: "Wood posts" },
+  { id: 6, src: "/modernmabati.jpg", alt: "Modern roofing sheets" },
+  { id: 7, src: "/plasticPipes.jpg", alt: "PVC pipes" },
+  { id: 8, src: "/nails.jpg", alt: "Nails" },
+  { id: 9, src: "/wood.jpg", alt: "Plywood sheets" },
+  { id: 10, src: "/IMG-20241127-WA0005.jpg.jpg", alt: "Metal pipes" },
+  { id: 11, src: "/toiltes.jpg", alt: "Ceramic toilet and sinks " },
+  { id: 12, src: "/paints", alt: "Paint " },
+  { id: 13, src: "/morecement", alt: "Cement" },
+  { id: 13, src: "/doors", alt: "wood panels" },
 ];
 
 const HardwareItems = () => {

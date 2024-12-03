@@ -6,11 +6,14 @@ const householdImages = [
   { id: 3, src: "/Household/kienyejiSufurias.jpg", alt: "Sufurias" },
   { id: 4, src: "/Household/anotherteaset.jpg", alt: "ceramic tea set" },
   { id: 5, src: "/Household/sugarholder.jpg", alt: "Sugar holder" },
-  { id: 6, src: "/Household/public/Household/brownwineglasses.jpg", alt: "Wine glasses" },
+  { id: 6, src: "/Household/brownwineglasses.jpg", alt: "Wine glasses" },
   { id: 7, src: "/Household/plates.jpg", alt: "plates" },
   { id: 8, src: "/Household/waterbottles.jpg", alt: "Water bottles" },
   { id: 9, src: "/Household/juicejar.jpg", alt: "Juice jar" },
-  { id: 10, src: "/Household/coffeeset.jpg", alt: "Coffee set" },
+  { id: 10, src: "/Household/waterholder", alt: "Elegant Crystal Water glass" },
+  { id: 11, src: "/Household/highgradevacuumflask.jpg", alt: "High grade vacuum flask" },
+  { id: 12, src: "/Household/blinkmaxglasses.jpg", alt: "Blink max glasses" },
+  { id: 13, src: "/Household/ceramicmugs.jpg", alt: "Ceramic mugs" },
 ];
 
 const HouseholdItems = () => {
