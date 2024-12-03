@@ -28,7 +28,6 @@ export default function Footer() {
             <ul className="space-y-2">
               <li className="flex items-center"><Clock className="h-4 w-4 mr-2" /> Mon-Fri: 8AM - 8PM</li>
               <li className="flex items-center"><Clock className="h-4 w-4 mr-2" /> Sat: 9AM - 6PM</li>
-              <li className="flex items-center"><Clock className="h-4 w-4 mr-2" /> Sun: 10AM - 4PM</li>
             </ul>
           </div>
           
