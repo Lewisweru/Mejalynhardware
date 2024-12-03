@@ -49,7 +49,7 @@ export default function Footer() {
               <a href="https://wa.me/254746607996"
                     target="_blank"
                      rel="noopener noreferrer" className="hover:text-white transition-colors"><FaWhatsapp className="h-6 w-6" />
-                     <span>Whatsapp for Enquiries</span>
+                     Whatsapp for Enquiries
                      </a>
             </div>
           </div>
