@@ -18,7 +18,7 @@ const hardwareImages = [
   { id: 15, src: "/wiremesh.jpg", alt: "vehicle transporting" },
   { id: 16, src: "/pvcpipes.jpg", alt: "PVC pipes" },
   { id: 17, src: "/IMG-20241127-WA0040.jpg", alt: "pipe fittings" },
-
+  { id: 18, src: "/tradMabati.jpg", alt: "Traditional roofing sheets" },
 ];
 
 const HardwareItems = () => {
