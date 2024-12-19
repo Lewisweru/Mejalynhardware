@@ -3,8 +3,9 @@ import React from "react";
 const hardwareImages = [
   { id: 1, src: "/wheelbarrows.jpg", alt: "Wheelbarrows" },
   { id: 2, src: "/wire.jpg", alt: "Welded wire mesh" },
-  { id: 3, src: "/cement.jpg", alt: "Cement" },
+  { id: 3, src: "/SIMBA-CEMENT-3", alt: "Simba Cement" },
   { id: 4, src: "/segenge.jpg", alt: "Barbed wire" },
+  
   { id: 5, src: "/logs.jpg", alt: "Wood posts" },
   { id: 6, src: "/modernmabati.jpg", alt: "Modern roofing sheets" },
   { id: 7, src: "/plasticPipes.jpg", alt: "PVC pipes" },
