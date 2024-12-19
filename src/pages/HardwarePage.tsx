@@ -3,9 +3,8 @@ import React from "react";
 const hardwareImages = [
   { id: 1, src: "/wheelbarrows.jpg", alt: "Wheelbarrows" },
   { id: 2, src: "/wire.jpg", alt: "Welded wire mesh" },
-  { id: 3, src: "/SIMBA-CEMENT-3", alt: "Simba Cement" },
+  { id: 3, src: "/SIMBA-CEMENT-3.jpg", alt: "Simba Cement" },
   { id: 4, src: "/segenge.jpg", alt: "Barbed wire" },
-  
   { id: 5, src: "/logs.jpg", alt: "Wood posts" },
   { id: 6, src: "/modernmabati.jpg", alt: "Modern roofing sheets" },
   { id: 7, src: "/plasticPipes.jpg", alt: "PVC pipes" },
@@ -15,7 +14,11 @@ const hardwareImages = [
   { id: 11, src: "/toiltes.jpg", alt: "Ceramic toilet and sinks " },
   { id: 12, src: "/morePaint.jpg", alt: "Paint" },
   { id: 13, src: "/morecement.jpg", alt: "Cement" },
-  { id: 13, src: "/doors.jpg", alt: "wood panels" },
+  { id: 14, src: "/doors.jpg", alt: "wood panels" },
+  { id: 15, src: "/wiremesh.jpg", alt: "vehicle transporting" },
+  { id: 16, src: "/pvcpipes.jpg", alt: "PVC pipes" },
+  { id: 17, src: "/IMG-20241127-WA0040.jpg", alt: "pipe fittings" },
+
 ];
 
 const HardwareItems = () => {
