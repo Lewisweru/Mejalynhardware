@@ -4,7 +4,7 @@ export default function Banner() {
   return (
     <div className="relative bg-gray-900 min-h-[500px]">
   <img
-    src="/Banner.jpg"
+    src="/NEW/ IMG-20250105-WA0012.jpg"
     alt="A variety of workshop tools displayed in an organized manner"
     className="absolute inset-0 w-full h-full object-cover"
   />
