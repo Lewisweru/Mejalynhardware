@@ -3,7 +3,7 @@ import React from "react";
 const hardwareImages = [
   { id: 1, src: "/wheelbarrows.jpg", alt: "Wheelbarrows" },
   { id: 2, src: "/wire.jpg", alt: "Welded wire mesh" },
-  { id: 3, src: "/SIMBA-CEMENT-3.jpg", alt: "Simba Cement" },
+  { id: 3, src: "/simbacement.jpg", alt: "Simba Cement" },
   { id: 4, src: "/segenge.jpg", alt: "Barbed wire" },
   { id: 5, src: "/logs.jpg", alt: "Wood posts" },
   { id: 6, src: "/modernmabati.jpg", alt: "Modern roofing sheets" },
@@ -14,11 +14,17 @@ const hardwareImages = [
   { id: 11, src: "/toiltes.jpg", alt: "Ceramic toilet and sinks " },
   { id: 12, src: "/morePaint.jpg", alt: "Paint" },
   { id: 13, src: "/morecement.jpg", alt: "Cement" },
-  { id: 14, src: "/doors.jpg", alt: "wood panels" },
+  { id: 14, src: "/morewood.jpg", alt: "wood panels" },
   { id: 15, src: "/wiremesh.jpg", alt: "vehicle transporting" },
-  { id: 16, src: "/pvcpipes.jpg", alt: "PVC pipes" },
-  { id: 17, src: "/IMG-20241127-WA0040.jpg", alt: "pipe fittings" },
+  { id: 16, src: "/IMG-20250105-WA0004.jpg", alt: "PVC pipe fittings" },
+  { id: 17, src: "/IMG-20250105-WA0010.jpg", alt: "large pipe fittings" },
   { id: 18, src: "/tradMabati.jpg", alt: "Traditional roofing sheets" },
+  { id: 19, src: "/IMG-20250105-WA0009.jpg", alt: "Heavy duty sheets" },
+  { id: 20, src: "/IMG-20250105-WA0001.jpg", alt: "Tokenboxs" },
+  { id: 21, src: "/IMG-20250105-WA0007.jpg", alt: "Rope" },
+  { id: 22, src: "/IMG-20250105-WA0005.jpg", alt: "Jikos" },
+  
+  
 ];
 
 const HardwareItems = () => {

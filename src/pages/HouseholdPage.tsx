@@ -20,6 +20,12 @@ const householdImages = [
   { id: 17, src: "/Household/market.jpg", alt: "Plastic varieties" },
   { id: 18, src: "/Household/basins.jpg", alt: "Basins" },
   { id: 19, src: "/Household/plates2.jpg", alt: "plates" },
+  { id: 20, src: "/NEW/IMG-20250105-WA0008.jpg", alt: "Plastic baskets and containers" },
+  { id: 21, src: "/NEW/IMG-20250105-WA0011.jpg", alt: "Laundry bins" },
+  { id: 22, src: "/NEW/IMG-20241231-WA0085.jpg", alt: "Stainless steel pots and pans" },
+  { id: 23, src: "/NEW/IMG-20241231-WA0093.jpg", alt: "Florence hotpots 4pcs" },
+  { id: 24, src: "/NEW/IMG-20241231-WA0094.jpg", alt: "Goldstar turkish hotpots 4pcs" },
+  
 ];
 
 const HouseholdItems = () => {

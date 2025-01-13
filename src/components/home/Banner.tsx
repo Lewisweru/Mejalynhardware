@@ -12,9 +12,7 @@ export default function Banner() {
     <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6">
       Your One-Stop Shop for Home & Hardware
     </h1>
-    <p className="text-lg text-gray-200 mb-6">
-      From power tools to kitchenware, find everything you need for your home improvement and daily living needs.
-    </p>
+  
     <button className="px-6 py-3 bg-blue-600 text-white font-bold rounded hover:bg-blue-700">
       Shop Now
     </button>
